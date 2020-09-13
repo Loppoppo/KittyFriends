@@ -26,7 +26,7 @@ class App extends Component {
   render() {
     const { cats, searchfield} = this.state;
     const filteredCats = cats.filter(cat => {
-      return cat.name.toLowerCase().includes(searchfield.toLowerCase());
+      return cat.username.toLowerCase().includes(searchfield.toLowerCase());
     })
     if (!cats.length) {
       return <h1>Loading...</h1>
