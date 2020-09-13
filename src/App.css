@@ -1,38 +1,17 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+
+h1 {
+  font-family: 'Concert One', cursive;
+  font-size: 3.5rem;
+  opacity: 0.7;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input:focus {
+    outline: none !important;
+    border:2px solid rgb(76, 189, 140);
+    box-shadow: 0 0 10px #719ECE;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+  
